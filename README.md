@@ -59,6 +59,9 @@ You will be running your tests in one terminal and debugging in the other. As yo
 Edit the `ReadMe` file with your answers to the questions below.
 
 1. In your own words, define closure (1-2 sentences).
+
+Closure happens when a function has to look outside of itself for a variable that wasn't defined within it's scope.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -80,9 +83,16 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+${name}, because it isn't define within the function, so it would have to look outside for the value.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+The name and string are the same, except for the result of the dice roll.
+
 c. What is the lexical scope of `newRoll`? 
 
+It can only be called within the personalDice function
 
 ### Task 3 - Stretch Goals
 
